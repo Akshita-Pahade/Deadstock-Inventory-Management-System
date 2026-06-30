@@ -1,4 +1,4 @@
-# ♻ Deadstock Inventory Management System
+# Deadstock Inventory Management System
 
 A full-stack inventory management system built for the **fast-fashion supply chain**, designed to track deadstock items from branch intake through warehouse consolidation to final sustainable disposition (recycle, donate, resell, upcycle, rebrand, or dispose).
 
@@ -6,7 +6,7 @@ Built as a DBMS mini-project with a focus on real-world role-based workflows, au
 
 ---
 
-## 🚀 Features
+## Features
 
 ### Core Inventory Management
 - **4-role RBAC system** — Admin, Branch Head, Warehouse Head, Stock Allocation Head, each with scoped permissions enforced at the route level
@@ -30,7 +30,7 @@ Built as a DBMS mini-project with a focus on real-world role-based workflows, au
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 | Layer          | Technology                          |
 |----------------|--------------------------------------|
@@ -44,7 +44,7 @@ Built as a DBMS mini-project with a focus on real-world role-based workflows, au
 
 ---
 
-## 🗄 Database Design
+## Database Design
 
 - **11 core tables**: `ADMIN`, `HEAD`, `CONTACTS`, `MATERIAL`, `WAREHOUSE`, `BRANCH`, `DEADSTOCK`, `STOCK_ALLOCATION`, `REPORT`, `RECYCLE_RECORD`, `RATING_HISTORY`
 - Normalized to **3NF** with foreign key constraints and `ON DELETE RESTRICT`/`CASCADE` rules to preserve data integrity
@@ -56,7 +56,7 @@ Built as a DBMS mini-project with a focus on real-world role-based workflows, au
 
 ---
 
-## 👥 User Roles
+## User Roles
 
 | Role               | Permissions                                                   |
 |--------------------|----------------------------------------------------------------|
@@ -67,7 +67,7 @@ Built as a DBMS mini-project with a focus on real-world role-based workflows, au
 
 ---
 
-## 📦 Setup
+## Setup
 
 ### Prerequisites
 - Python 3.8+
@@ -115,11 +115,11 @@ SENDGRID_API_KEY=your_sendgrid_api_key
 SENDGRID_FROM=noreply@yourdomain.com
 ```
 
-> ⚠️ **Note:** Update `app.py` to load these values via `python-dotenv` (`os.environ.get(...)`) instead of hardcoded credentials before deploying.
+ **Note:** Update `app.py` to load these values via `python-dotenv` (`os.environ.get(...)`) instead of hardcoded credentials before deploying.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 deadstock-ims/
@@ -144,7 +144,7 @@ deadstock-ims/
 
 ---
 
-## 🌱 Sustainability Impact
+## Sustainability Impact
 
 This system was designed with sustainability as a core metric, not an afterthought:
 
@@ -155,7 +155,7 @@ This system was designed with sustainability as a core metric, not an afterthoug
 
 ---
 
-## 📌 Notes
+## Notes
 
 - This project was built as an academic DBMS mini-project and demo system
 - Credentials in the codebase should be moved to environment variables before any production use
@@ -163,6 +163,6 @@ This system was designed with sustainability as a core metric, not an afterthoug
 
 ---
 
-## 📄 License
+## License
 
 This project is for academic and portfolio purposes.
